@@ -150,8 +150,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       ts-essentials:
-        specifier: ^9.4.0
-        version: 9.4.0(typescript@5.2.2)
+        specifier: ^9.4.1
+        version: 9.4.1(typescript@5.2.2)
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
@@ -195,43 +195,7 @@ importers:
         specifier: ^3.7.0
         version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
 
-  specs/fixtures/basic_layer:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
-  specs/fixtures/basic_pages:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
   specs/fixtures/basic_usage:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
-  specs/fixtures/component:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
-  specs/fixtures/custom_route_paths_component:
     devDependencies:
       '@nuxtjs/i18n':
         specifier: link:../../..
@@ -249,25 +213,7 @@ importers:
         specifier: ^3.7.0
         version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
 
-  specs/fixtures/fallback:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
   specs/fixtures/inline_options:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
-  specs/fixtures/layer_consumer:
     devDependencies:
       '@nuxtjs/i18n':
         specifier: link:../../..
@@ -295,15 +241,6 @@ importers:
         version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
 
   specs/fixtures/switcher:
-    devDependencies:
-      '@nuxtjs/i18n':
-        specifier: link:../../..
-        version: link:../../..
-      nuxt:
-        specifier: ^3.7.0
-        version: 3.7.0(eslint@8.50.0)(rollup@3.28.1)(typescript@5.2.2)
-
-  specs/fixtures/vue_i18n_options:
     devDependencies:
       '@nuxtjs/i18n':
         specifier: link:../../..
@@ -9684,8 +9621,8 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /ts-essentials@9.4.0(typescript@5.2.2):
-    resolution: {integrity: sha512-s4BzWZmTh926caZO7XF7MMbwCn1BioT3s3r9hT8ARnwW//30OD0XioEsMyq3ORAHP/deN4Zkst2ZvxXmL+tG6g==}
+  /ts-essentials@9.4.1(typescript@5.2.2):
+    resolution: {integrity: sha512-oke0rI2EN9pzHsesdmrOrnqv1eQODmJpd/noJjwj2ZPC3Z4N2wbjrOEqnsEgmvlO2+4fBb0a794DCna2elEVIQ==}
     peerDependencies:
       typescript: '>=4.1.0'
     peerDependenciesMeta:
